@@ -1,0 +1,23 @@
+To fully understand algorithms we must understand how to evaluate the time an algorithm needs to do its job, the runtime.
+
+* "One Operation" : One operation in an algorithm can be understood as something we do in each iteration of the algorithm,
+ or for each piece of data, that takes constant time.
+
+* "Big O Notation":  Big O notation is used more specifically to find the worst case time complexity for an algorithm.
+   Big O notation uses a capital letter O with parenthesis O(), and inside the parenthesis there is an expression that 
+   indicates the algorithm runtime. Runtime is usually expressed using n, which is the number of values in the data set
+   the algorithm is working on.
+
+    ----> O(1) : Looking up a specific element in an array
+    ----> O(n) : Finding the lowest value. The algorithm must do n operations in an array with n values to find the lowest
+                 value, because the algorithm must compare each value one time.
+    ----> O(n^2) : Bubble sort, Selection sort and Insertion sort are algorithms with this time complexity. The reason for
+                   their time complexities are explained on the pages for these algorithms.
+                   Large data sets slows down these algorithms significantly.typically occurs when you have nested loops. 
+                   Each loop iterates over the input of size 𝑛, and the inner loop also iterates 𝑛 times for each iteration 
+                   of the outer loop.
+    ----> O(n log n) : Its common time complexity in algorithms that involve dividing the input into smaller parts and then 
+                       combining them, such as in divide-and-conquer algorithms. It means the algorithm processes the input
+                       size 𝑛, but it also involves some additional logarithmic factor related to dividing the input.
+                       The 𝑛 factor represents the time taken to handle each individual element.
+                       The log 𝑛 factor represents the number of times the problem is divided into smaller subproblems.

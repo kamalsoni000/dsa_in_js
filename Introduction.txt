@@ -1,0 +1,14 @@
+A Data Structure is a way of Organizing and Storing data in a Computer so that it 
+can be accessed and used efficiently.
+
+Classification:
+
+*Linear Data Structure: A Data Structure in which data elements are  arranged in sequentially 
+or Linearly, where each elements is attached to its previous and next adjacent elements .
+For example: Array , Stack, Queue, etc.
+
+*Non-Linear Data Structure : Data Structures where data elements are not placed in sequentially
+or Linearly.
+For example: Tree and Graphs.
+
+A data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed and updated efficiently.
