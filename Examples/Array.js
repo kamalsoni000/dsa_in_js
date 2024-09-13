@@ -54,21 +54,50 @@
 // Auxiliary Space: O(1)
 
 // -------- Coding implementation of inserting an element at any position:-------
-let data=[1,12,44,2,4,5,13,88];
-let num=222;
-let pos=2;
+// let data=[1,12,44,2,4,5,13,88];
+// let num=222;
+// let pos=2;
 
-function insertAtPos(arr,key,pos){
-    let newArr=new Array(arr.length+1);
-    for(let i=0;i<pos;i++){
-        newArr[i]=arr[i];
-    }
-    newArr[pos]=key;
-    for(let i=pos;i<arr.length;i++){
-        newArr[i+1]=arr[i];
-    }
-    return newArr;
-}
-const res=insertAtPos(data,num,pos);
+// function insertAtPos(arr,key,pos){
+//     let newArr=new Array(arr.length+1);
+//     for(let i=0;i<pos;i++){
+//         newArr[i]=arr[i];
+//     }
+//     newArr[pos]=key;
+//     for(let i=pos;i<arr.length;i++){
+//         newArr[i+1]=arr[i];
+//     }
+//     return newArr;
+// }
+// const res=insertAtPos(data,num,pos);
 
-console.log(res);
+// console.log(res);
+
+// Time Complexity: O(N) 
+// Auxiliary Space: O(1)
+
+
+//  ----------------- Delete Operation -------------------
+
+
+// function deleteAt(arr,pos){
+//  if(pos>arr.length){
+//     return undefined;
+//  }
+//  let newArr=new Array(arr.length-1);
+//  for(let i=0;i<pos-1;i++){
+//     newArr[i]=arr[i];
+//  }
+//  for(let i=pos;i<arr.length;i++){
+//    newArr[i-1]=arr[i];
+//  }
+ 
+//  return newArr;
+// }
+// const arr=[2,4,1,44,53,221,56,11];
+// const pos=111;
+// const res= deleteAt(arr,pos);
+// console.log(`Delete the element at ${pos} pos and Array is ${res}`);
+
+// Time Complexity: O(N) 
+// Auxiliary Space: O(1)
